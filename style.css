@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 20px;
+    justify-content: center;
+    background-color: blueviolet;
+    margin: 200px 500px;
+    border-radius: 10px;
+}
+#temp{
+    padding: 0 0 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.value{
+    padding: 10px 10px 0;
+}
+.value label{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(241, 241, 150);
+}
+input{
+    padding: 6px;
+    margin: 8px;
+}
+.select{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(241, 241, 150);
+    display: flex;
+    padding: 20px;
+}
+#input{
+    padding: 6px;
+}
+#output{
+    padding: 6px;
+}
+.output{
+    margin-left: 50px;
+}
+button{
+    position: relative;
+    padding: 5px 10px;
+    margin: 0 15px;
+    font-size: larger;
+    color: solid black;
+    font-weight: 900;
+    border-radius: 15px;
+    background-color: yellow;
+}
+#convert:hover{
+    background-color: rgb(48, 148, 48);
+    width: 90px;
+    font-size: smaller;
+    cursor: pointer;
+    transition-duration: .5s ease;
+}
+#clear:hover{
+    background-color: red;
+    width: 90px;
+    height: 30px;
+    font-size: smaller;
+    cursor: pointer;
+    transition-duration: .5s ease;
+}
+#clear{
+    padding: 5px 20px;
+    background-color: pink;
+}
+
+.answer{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(241, 241, 150);
+    margin: 5px 0 0 18px;
+}
+
